@@ -3,7 +3,7 @@
 This is an adapter module for using [smartcrop.js](https://github.com/jwagner/smartcrop.js)
 with node.js using [jimp](https://github.com/oliver-moran/jimp) for image decoding.
 
-The reason why I wanted to use Jimp with smartcrop.js is that jimp doesn't have no native dependency: It's 100% javascript. So mixing smartcrop and jimp seemed to me super natural for use with NodeJS.
+The reason why I wanted to use Jimp with smartcrop.js is that jimp doesn't have no native dependency: It's 100% javascript. So mixing smartcrop and jimp seemed to me super natural to use with NodeJS.
 
 This module is widely inspired by Jonas Weigner's https://github.com/jwagner/smartcrop-sharp
 Thank you Jonas for smartcrop.js !
