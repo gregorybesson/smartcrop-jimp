@@ -40,7 +40,6 @@ function applySmartCrop(src, dest, width, height) {
       var crop = result.topCrop;
       Jimp(body)
         .crop(crop.x, crop.y, crop.width, crop.height)
-        .resize(width, height)
         .write(dest);
     });
   });
