@@ -1,7 +1,8 @@
 const util = require('util');
 const smartcrop = require('smartcrop');
 const Jimp = require('jimp');
-Jimp.prototype.getBufferAsync = util.promisify( Jimp.prototype.getBuffer );
+// Async buffer now included in the new versions of Jimp
+//Jimp.prototype.getBufferAsync = util.promisify( Jimp.prototype.getBuffer );
 
 function rgb2rgba(input) {
   var output = new Buffer(input.length / 3 * 4);
