@@ -1,6 +1,6 @@
 {
   "name": "smartcrop-jimp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "smartcrop adapter for Jimp",
   "main": "index.js",
   "scripts": {
